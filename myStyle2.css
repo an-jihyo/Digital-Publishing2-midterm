@@ -1,0 +1,392 @@
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1{
+    font-size: 2vw;
+    color: black;
+    font-family: 'ChosunKg', sans-serif;
+    font-weight: 500;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    /* 메인텍스트 날짜 */
+}
+
+h2{
+    font-size: 3vw;
+    color: black;
+    font-family: 'ChosunKg', sans-serif;
+    font-weight: 500;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    /* 메인텍스트 글귀 */
+}
+
+h3{
+    font-size: 2.5vw;
+    color: black;
+    font-family: 'ChosunKg', sans-serif;
+    font-weight: 500;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    /* 기사 헤드라인 */
+}
+
+h4{
+    padding: 0.5vw;
+    margin: 0;
+    /* 본문 외 행간조절 */
+}
+
+h5{
+    font-size: 2.5vw;
+    color: black;
+    font-family: 'ChosunKg', sans-serif;
+    font-weight: 500;
+    align-self: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 1vw;
+    /* 그래프 기사 헤드라인 */
+}
+
+p{
+    font-size: 1.3vw;
+    color: black;
+    font-family: 'Freesentation-9Black', sans-serif;
+    font-weight: 500;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+    /* 본문 글귀 */
+}
+
+button{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border:none;
+    background-color: transparent;
+    transition: transform 0.2s ease-in-out;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+hr{
+    border-color: black;
+    opacity: 100;
+}
+
+
+.background{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/bg.png");
+    background-repeat: repeat-y;
+    position: relative;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.mainImage{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.articleImage{
+    position: relative;
+    z-index: 3;
+    width: 70vw;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 마스크와 가운 이미지 */
+}
+
+.articleImage2{
+    position: relative;
+    z-index: 3;
+    width: 60vw;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 서류와 뱃지 이미지 */
+}
+
+.articleImage3{
+    position: relative;
+    z-index: 3;
+    width: 90vw;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 주사기 이미지 */
+}
+
+.articleImage4{
+    position: relative;
+    z-index: 3;
+    width: 55vw;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 처방전 이미지 */
+}
+
+.articleImage5{
+    position: relative;
+    z-index: 3;
+    width: 75vw;
+    margin-top: 10vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 구급차 이미지 */
+}
+
+.articleImage6{
+    position: relative;
+    z-index: 3;
+    width: 60vw;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 휠체어 이미지 */
+}
+
+.articleImage7{
+    position: relative;
+    z-index: 1;
+    width: 80vw;
+    margin-top: 1vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 국회의사당 이미지 */
+}
+
+.articleImage8{
+    position: relative;
+    z-index: 3;
+    width: 65vw;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 보행기 이미지 */
+}
+
+.articleImage9{
+    position: relative;
+    z-index: 1;
+    width: 63vw;
+    margin-top: 2vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 장갑 이미지 */
+}
+
+.articleImage10{
+    position: relative;
+    z-index: 1; 
+    width: 70vw;
+    margin-top: 20vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 들것 이미지 */
+}
+
+.articleImage11{
+    position: relative;
+    z-index: 3;
+    width: 65vw;
+    margin-top: 8vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 학생증 이미지 */
+}
+
+.articleImage12{
+    position: relative;
+    z-index: 3;
+    width: 65vw;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* 투표용지 이미지 */
+}
+
+.textbackImage {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 41vw; 
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-image: url(images/article/01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* 기사 본문 뒤에 들어가는 흰 이미지 박스 */
+}
+
+.mainCrumpled{
+    height: 45vw;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+    /* 구겨진 종이 설정 */
+}
+
+.maingraph{
+    height: 35vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    /* 그래프 설정 */
+}
+
+.center{
+    text-align: center
+}
+
+.linethick{
+    width: 40%;
+    align-self: center;
+    border: solid 0.2vw;  
+    border-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.15vw;
+    margin-bottom: 0.15vw;
+    /* 두꺼운 선 */
+}
+
+.linethin{
+    width: 40%;
+    align-self: center;
+    border: solid 0.1vw; 
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* 얇은 선 */
+}
+
+.articleIineThick{
+    width: 51.4vw;
+    align-self: center;
+    border: solid 0.2vw;  
+    border-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.15vw;
+    margin-bottom: 0.15vw;
+    /* 기사 두꺼운 선 */
+}
+
+.articleIineThin{
+    width: 51.4vw;
+    align-self: center;
+    border: solid 0.1vw; 
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* 기사 얇은 선 */
+}
+
+.maintext{
+    padding: 2vw;
+    /* 기사 제외 모든 헤드라인 글 들어가는 텍스트 박스 */
+}
+
+.articlemaintext{
+    padding: 2vw;
+    width: 50.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* 기사 헤드라인 들어가는 텍스트 박스 */
+}
+
+.articlelongtext{
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56.5vw;
+}
+
+.articleparents{
+    position: relative;
+    z-index: 4;
+    width: 100vw;
+    height: 80vw;
+    z-index: 0;
+    /* 부모요소 */
+}
+
+.articlechildleft{
+    position: absolute;
+    left: -25vw;
+    /* 왼쪽 자식요소 */
+}
+
+.articlechildright{
+    position: absolute;
+    left: -9vw;
+    /* 오른쪽 자식요소 */
+}
+
+.padding{
+    padding: 10vw;
+}
+
+.scrSection {
+    position: relative; /* 각 섹션이 고유한 위치와 z-index를 가질 수 있도록 설정 */
+    z-index: 3; /* 기본 설정으로 textbackImage보다 높게 설정 */
+}
+
+
