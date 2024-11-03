@@ -1,5 +1,5 @@
 let scrollTimeout;
-const sections = document.querySelectorAll('.col-12'); // 스크롤할 섹션 목록
+const sections = document.querySelectorAll('.scrSection'); // 스크롤할 섹션 목록
 let currentSectionIndex = 0;
 
 window.addEventListener('wheel', function(event) {
